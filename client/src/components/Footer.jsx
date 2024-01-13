@@ -1,12 +1,8 @@
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer is-fiexed-bottom-mobile">
             <div className="content has-text-centered">
-                <p>
-                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-                </p>
+                <p>Copyright 2023 D.Beck. Licensed MIT</p>
             </div>
         </footer>
     );

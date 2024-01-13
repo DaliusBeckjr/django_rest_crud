@@ -67,6 +67,21 @@ button:focus-visible {
   }
 } */
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.button.is-primary:hover{
+  background-color: hsl(171, 100%, 41%);
+  color: #fff;
+}
+/* a.has-text-primary:hover{
+  background-color: hsl(171, 100%, 41%);
+  color: #fff;
+} */
+
 /* english violet */
 .primary-color {
   color: #554971;

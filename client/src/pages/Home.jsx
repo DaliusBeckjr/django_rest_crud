@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
     <div>
-        <section className="section is-medium">
+        <section className="section is-large">
         <h1 className="is-size-1 has-text-weight-bold has-text-centered mb-4">Dashboard</h1>
             { movies.map(movie => (
                 <Link to={movie.id.toString()} key={movie.id} className="box">

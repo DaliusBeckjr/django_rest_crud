@@ -20,7 +20,7 @@ export default function MovieDetails() {
     }
 
     return (
-        <section className="section is-medium">
+        <section className="section is-large">
             <h2>Movie Details for {movie.title}</h2>
             <p>Description: {movie.description}</p>
             <button className="button" onClick={handleDelete}>Delete</button>
